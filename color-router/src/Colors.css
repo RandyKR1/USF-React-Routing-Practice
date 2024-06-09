@@ -1,0 +1,17 @@
+.container{
+    padding: 75px;
+    background-color: rgb(140, 139, 139);
+    color: azure;
+}
+
+.container h1{
+    font-size: 4em;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.container h3{
+    letter-spacing: 2px;
+    font-weight: 300;
+}
