@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom'
 import { v4 as uuid } from 'uuid';
+import './NewColorForm.css'
 
 const NewColorForm = ({ createColor }) => {
   const INITIAL_STATE = {

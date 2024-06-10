@@ -20,10 +20,16 @@ const Colors = ({ newColors }) => {
         </div>
                 {newColors.length > 0 && (
                     <div className="new-colors">
-                        <h3>Your Colors</h3>
+                        <h1>Your Colors</h1>
                         {newColors.map(color => (
                             <p key={color.name}>
-                                <Link to={`/colors/${color.name.toLowerCase()}`}>{color.name}</Link>
+                                <Link 
+                                    to={`/colors/${color.name.toLowerCase()}`}
+                                    style={{
+                                        textDecoration: 'none',
+                                        fontSize: '3em',
+                                        color: 'rgb(140, 139, 139)'
+                                    }}>{color.name}</Link>
                             </p>
                         ))}
                     </div>

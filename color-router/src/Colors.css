@@ -15,3 +15,12 @@
     letter-spacing: 2px;
     font-weight: 300;
 }
+
+.new-colors h1{
+    font-size: 4em;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: rgb(140, 139, 139);
+    text-decoration: underline;
+}

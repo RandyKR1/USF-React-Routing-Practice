@@ -1,5 +1,7 @@
 import React from "react";
 import { useParams, Navigate, Link } from "react-router-dom";
+import "./Color.css"
+
 
 const Color =({ colors }) => {
   const { name } = useParams();
@@ -11,21 +13,11 @@ const Color =({ colors }) => {
 
   return (
     <>
-    <div
+    <div className="unit"
         style={{
-            backgroundColor: color.name,
-            height: '100%',
-            width: '100%',
-            display: 'flex',
-            justifyContent:"center",
-            color: 'white',
-            flexDirection: 'column'
+            backgroundColor: color.name
         }}>
-      <h1
-        style={{
-          padding: '20px',
-          fontSize: '4em'
-        }}>
+      <h1>
           This is {color.name}, isnt it neat?
       </h1>
 
